@@ -23,6 +23,7 @@ import Vuex from 'vuex'
 //     }
 //   }
 // })
+// export default store
 
 export const state = () => ({
   isLoading: false
@@ -34,4 +35,3 @@ export const mutations = {
   }
 }
 
-export default store
