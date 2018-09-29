@@ -56,5 +56,7 @@ module.exports = {
 
   router: {
     middleware: ["redirector"]
-  }
+  },
+
+  plugins: [ '~/plugins/logger' ]
 }
