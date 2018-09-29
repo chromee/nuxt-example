@@ -52,5 +52,9 @@ module.exports = {
         })
       }
     }
+  },
+
+  router: {
+    middleware: ["redirector"]
   }
 }
